@@ -42,18 +42,36 @@ footer {
     margin: 25px;
 }
 
+.container_draft {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
 h1 {
     font-size: 50px;
+    color: #2f435d;
 }
 
 h2 {
     font-size: 20px;
+    color: #2f435d;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 16px;
     text-decoration: underline;
     text-underline-offset: 10px;
+}
+
+h4 {
+    font-size: 30px;
+    color: #2f435d;
+    padding: 0;
+    margin: 5px;
 }
 
 p {
