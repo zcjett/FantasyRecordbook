@@ -15,7 +15,7 @@
 </head>
 <body class="w3-light-grey">
 
-  <!-- Top container -->
+  <!-- Black Bar Across Top of Site  -->
   <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
     <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
     <a href="../../wg.html"><span class="w3-bar-item w3-right"><img src="../../assets/favicon_png.png" width="25" height="25"></span></a>
@@ -53,7 +53,7 @@
   <!-- !PAGE CONTENT! -->
   <div class="w3-main" style="margin-left:300px;margin-top:43px;">
 
-    <!-- Header -->
+    <!-- Team Header -->
     <header>
       <div class="w3-centered">
         <div class="w3-container w3-blue w3-padding-16">
@@ -65,49 +65,70 @@
     </header>
     <br>
 
-    <!-- Team Info -->
-    <div class="w3-row-padding w3-margin-bottom">
-      <div class="w3-third">
-        <div class="w3-container w3-red w3-padding-16">
-          <div class="w3-left"><i class="fa-solid fa-football w3-xxxlarge"></i>
-            <h4>Joined League</h4>
+    <!-- Team Admin Info -->
+    <div class="flex-container">
+      <div class="flex-card w3-dark-grey">
+          <div class="column-left">
+            <i class="fa-solid fa-football w3-xxxlarge"></i>
+            <h3>Joined League</h3>
           </div>
-          <div class="w3-right w3-sans-serif">
-            <h2 class="w3-sans-serif">2020</h2>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <br>
+              <strong style="font-size: 24px;">2020</strong><br>
+              &nbsp
+            </p>
           </div>
-        </div>
       </div>
 
-      <div class="w3-third">
-        <div class="w3-container w3-purple w3-padding-16">
-          <div class="w3-left"><i class="fa-solid fa-ranking-star w3-xxxlarge"></i>
-            <h4>Playoffs</h4>
+      <div class="flex-card w3-dark-grey">
+          <div class="column-left">
+            <i class="fa-solid fa-ranking-star w3-xxxlarge"></i>
+            <h3>Playoffs</h3>
           </div>
-          <div class="w3-right w3-sans-serif">
-            <h2 class="w3-sans-serif">1</h2>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <br>
+              <strong style="font-size: 24px;">1</strong><br>
+              &nbsp
+            </p>
           </div>
-        </div>
       </div>
 
-      <div class="w3-third">
-        <div class="w3-container w3-green w3-padding-16">
-          <div class="w3-left"><i class="fa-solid fa-trophy w3-xxxlarge"></i>
-            <h4>Championships</h4>
+      <div class="flex-card w3-dark-grey">
+          <div class="column-left">
+            <i class="fa-solid fa-trophy w3-xxxlarge"></i>
+            <h3>Championships</h3>
           </div>
-          <div class="w3-right w3-sans-serif">
-            <h2 class="w3-sans-serif">0</h2>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <br>
+              <strong style="font-size: 24px;">0</strong><br>
+              &nbsp
+            </p>
           </div>
-        </div>
       </div>
-    </div>
+    </div>      
+    <br>
     <br>
 
-    <!-- Team Actual Standings -->
-    <div class="w3-panel">
-      <div class="w3-half w3-panel w3-sans-serif">
+    <!-- Team Standings Header -->
+    <header>
+      <div class="w3-centered">
+        <div class="w3-container w3-blue w3-padding-16">
+          <div class="w3-left">
+            <h5><b><i class="fa-solid fa-football"></i> &nbsp Team Standings</b></h5>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Team Standings Info -->
+    <div class="flex-container">
+      <div class="flex-table">
         <h5><i class="fa-solid fa-trophy"></i>   Historical Standings</h5>
-        <table class="w3-table w3-centered w3-hoverable w3-white">
-          <tr class="w3-blue">
+        <table class="w3-table w3-centered w3-hoverable w3-white w3-sans-serif">
+          <tr class="w3-dark-grey">
             <td>Actual</td>
             <td>Expected</td>
             <td>Overall</td>
@@ -118,12 +139,12 @@
             <td>253 - 278</td>
           </tr>
         </table>
-        <br>
+      </div> 
 
-        <!-- Team Overall Standings -->
+      <div class="flex-table">
         <h5><i class="fa-solid fa-ranking-star"></i>  Point Stats</h5>
-        <table class="w3-table w3-centered w3-hoverable w3-white">
-          <tr class="w3-blue">
+        <table class="w3-table w3-centered w3-hoverable w3-white w3-sans-serif">
+          <tr class="w3-dark-grey">
             <td>Points For</td>
             <td>Points Against</td>
             <td>Weekly W</td>
@@ -139,10 +160,10 @@
       </div>
 
       <!-- Team Top 5 Weeks -->
-      <div class="w3-half w3-panel w3-sans-serif">
+      <div class="flex-table">
         <h5><i class="fa-solid fa-trophy"></i>   Top 5 Weeks</h5>
-        <table class="w3-table w3-centered w3-hoverable w3-striped w3-white">
-          <tr class="w3-blue">
+        <table class="w3-table w3-centered w3-hoverable w3-striped w3-white w3-sans-serif">
+          <tr class="w3-dark-grey">
             <td>Points</td>
             <td>Year</td>
             <td>Week</td>
@@ -178,107 +199,136 @@
     <br>
     <br>
 
-    <div class="w3-row-padding w3-margin-bottom">
-      <div class="w3-quarter">
-        <div class="w3-container w3-red w3-padding-16">
-          <div class="w3-left"><i class="fa-solid fa-trophy w3-xxxlarge"></i>
-            <h4>Most Weekly Points</h4>
-          </div>
-          <div class="w3-right w3-sans-serif">
-             <h4 class="w3-sans-serif">208.8</h4>
-             <h4 class="w3-sans-serif">2022 Week 9</h4>
-          </div>
-        </div>
-      </div>
-
-      <div class="w3-quarter">
+    <!-- Team Stats Header -->
+    <header>
+      <div class="w3-centered">
         <div class="w3-container w3-blue w3-padding-16">
-          <div class="w3-left"><i class="fa-solid fa-dumpster-fire w3-xxxlarge"></i>
-            <h4>Least Weekly Points</h4>
-          </div>
-          <div class="w3-right">
-            <h4 class="w3-sans-serif">76.62</h4>
-            <h4 class="w3-sans-serif">2022 Week 5</h4>
-          </div>          
-        </div>
-      </div>
-
-      <div class="w3-quarter">
-        <div class="w3-container w3-orange w3-text-white w3-padding-16">
-          <div class="w3-left"><i class="fa-solid fa-bomb w3-xxxlarge"></i>
-            <h4>Biggest Win</h4>
-          </div>
-          <div class="w3-right">
-            <h4 class="w3-sans-serif">208.80 - 118.10</h4>
-            <h4 class="w3-sans-serif">Zach vs Ron (2022)</h4>
+          <div class="w3-left">
+            <h5><b><i class="fa-solid fa-chart-column"></i> &nbsp Team Stats Records</b></h5>
           </div>
         </div>
       </div>
-
-      <div class="w3-quarter">
-        <div class="w3-container w3-green w3-padding-16">
-          <div class="w3-left"><i class="fa-solid fa-magnifying-glass-chart w3-xxxlarge"></i>
-            <h4>Closest Win</h4>
-          </div>
-          <div class="w3-right">
-            <h4 class="w3-sans-serif">136.28 - 134.84</h4>
-            <h4 class="w3-sans-serif">Zach vs Matt (2021)</h4>
-          </div>
-        </div>
-      </div>
-
-      <div class="w3-quarter">
-        <div class="w3-container w3-grey w3-text-white w3-padding-16">
-          <div class="w3-left"><i class="fa-solid fa-fire w3-xxxlarge"></i>
-            <h4>Winning Streak</h4>
-          </div>
-          <div class="w3-right">
-            <h4 class="w3-sans-serif">3</h4>
-            <h4 class="w3-sans-serif">2021 Week 3</h4>
-          </div>
-        </div>
-      </div>
-
-      <div class="w3-quarter">
-        <div class="w3-container w3-purple w3-padding-16">
-          <div class="w3-left"><i class="fa-solid fa-arrow-trend-down w3-xxxlarge"></i>
-            <h4>Losing Streak</h4>
-          </div>
-          <div class="w3-right">
-            <h4 class="w3-sans-serif">5</h4>
-            <h4 class="w3-sans-serif">2022 Week 7</h4>
-          </div>
-        </div>
-      </div>
-
-      <div class="w3-quarter">
-        <div class="w3-container w3-brown w3-padding-16">
-          <div class="w3-left"><i class="fa-solid fa-arrow-right-arrow-left w3-xxxlarge"></i>
-            <h4>Total Trades</h4>
-          </div>
-          <div class="w3-right">
-            <h4 class="w3-sans-serif">35</h4>
-            <h4 class="w3-sans-serif">(11 in 2021)</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    </header>
     <br>
+    <br>
+
+    <!-- Team Stats Records -->
+    <div class="flex-container">
+      <div class="flex-card w3-red">
+          <div class="column-left">
+            <i class="fa-solid fa-trophy w3-xxxlarge"></i>
+            <h3>Most Weekly Points</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>208.8</strong><br>
+              2022<br>
+              <i style="font-size: 15px;">Week 9</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-red">
+          <div class="column-left">
+            <i class="fa-solid fa-dumpster-fire w3-xxxlarge"></i>
+            <h3>Least Weekly Points</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>76.62</strong><br>
+              2022<br>
+              <i style="font-size: 15px;">Week 5</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-green">
+          <div class="column-left">
+            <i class="fa-solid fa-bomb w3-xxxlarge"></i>
+            <h3>Biggest Win</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>208.80 - 118.10</strong><br>
+              Zach vs Ron<br>
+              <i style="font-size: 15px;">2022 - Week 9</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-green">
+          <div class="column-left">
+            <i class="fa-solid fa-magnifying-glass-chart w3-xxxlarge"></i>
+            <h3>Closest Win</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>136.28 - 134.84</strong><br>
+              Zach vs Matt<br>
+              <i style="font-size: 15px;">2021 - Week 2</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-deep-purple">
+          <div class="column-left">
+            <i class="fa-solid fa-fire w3-xxxlarge"></i>
+            <h3>Winning Streak</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>3</strong><br>
+              2021<br>
+              <i style="font-size: 15px;">Week 3</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-deep-purple">
+          <div class="column-left">
+            <i class="fa-solid fa-arrow-trend-down w3-xxxlarge"></i>
+            <h3>Losing Streak</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>5</strong><br>
+              2022<br>
+              <i style="font-size: 15px;">Week 7</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-deep-orange">
+          <div class="column-left">
+            <i class="fa-solid fa-arrow-right-arrow-left w3-xxxlarge"></i>
+            <h3>Total Trades</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong style="font-size: 24px;">35</strong><br>
+              <br>
+              <i style="font-size: 15px;">11 in 2021</i>
+            </p>
+          </div>
+      </div>  
+    </div>
+    <br>
+
+    <!-- Grey Bar at the bottom -->
     <div class="w3-container w3-dark-grey w3-padding-16">
       <div class="w3-row">
         <div class="w3-container w3-third">
-          <h5 class="w3-bottombar w3-border-green">About Us</h5>
+          <h5 class="w3-bottombar w3-border-blue">About Us</h5>
           <p>Just a guy who DOMINATES his friends at fantasy football so much that he made this website to prove it.</p>
         </div>
         <div class="w3-container w3-third">
-          <h5 class="w3-bottombar w3-border-red">Fantasy Links</h5>
+          <h5 class="w3-bottombar w3-border-blue">Fantasy Links</h5>
           <a href="https://www.espn.com/fantasy/football/" style="text-decoration:none">ESPN</a><br>
           <a href="https://football.fantasysports.yahoo.com/" style="text-decoration:none">Yahoo</a><br>
           <a href="https://underdogfantasy.com/" style="text-decoration:none">Underdog</a>
         </div>
         <div class="w3-container w3-third">
-          <h5 class="w3-bottombar w3-border-orange">Contact Info</h5>
+          <h5 class="w3-bottombar w3-border-blue">Contact Info</h5>
           Fantasy Record Book<br>
           1000 Champions Row<br>
           Commish Park, USA<br>
