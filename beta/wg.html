@@ -15,13 +15,13 @@
 </head>
 <body class="w3-light-grey">
 
-  <!-- Top container -->
+  <!-- Black Bar Across Top of Site  -->
   <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
     <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
     <a href="wg.html"><span class="w3-bar-item w3-right"><img src="./assets/favicon_png.png" width="25" height="25"></span></a>
   </div>
 
-  <!-- Sidebar/menu -->
+  <!-- Sidebar Menu -->
   <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
     <div class="w3-container w3-row">
       <div class="w3-col s4">
@@ -54,24 +54,23 @@
   <!-- !PAGE CONTENT! -->
   <div class="w3-main" style="margin-left:300px;margin-top:43px;">
 
-    <!-- Header -->
-    <!-- Historical Standings -->
+    <!-- WG Home Screen Header -->
     <header>
       <div class="w3-centered">
         <div class="w3-container w3-blue w3-padding-16">
           <div class="w3-left">
-            <h1><img src="./assets/images/wg.jpeg" width="160" height = "120"><b> Wilsons Grove Record Book</b></h1>
+            <h1><img src="./assets/images/wg.jpeg" width="160" height = "120"><b> Wilsons Grove</b></h1>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Overall Standings -->
+    <!-- 2023 Standings -->
     <div class="w3-panel">
       <div class="w3-auto w3-sans-serif">
         <h5><i class="fa-solid fa-ranking-star"></i>  2023 Standings</h5>
         <table class="w3-table w3-centered w3-hoverable w3-striped w3-white">
-          <tr class="w3-blue">
+          <tr class="w3-dark-grey">
             <td>Owner</td>
             <td>W - L</td>
             <td>PF</td>
@@ -154,75 +153,80 @@
     </div>
 
     <!-- League Champs -->
-    <div class="w3-row-padding w3-margin-bottom">
-      <div class="w3-quarter">
-        <div class="w3-container w3-red">
-          <div class="w3-left w3-padding-16"><i class="fa-solid fa-trophy w3-xxxlarge"></i>
-            <h4>2023</h4>
+    <div class="flex-container">
+      <div class="flex-card w3-red">
+          <div class="column-left">
+            <i class="fa-solid fa-trophy w3-xxxlarge"></i>
+            <h3>2023</h3>
           </div>
-          <div class="w3-right w3-sans-serif">
-             <h5 class="w3-sans-serif">1st - Aaron</h5>
-             <h5 class="w3-sans-serif">2nd - Tony</h5>
-             <h5 class="w3-sans-serif">3rd - Dan</h5>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              1st - Aaron<br>
+              2nd - Tony<br>
+              3rd - Dan
+            </p>
           </div>
-        </div>
       </div>
 
-      <div class="w3-quarter">
-        <div class="w3-container w3-blue">
-          <div class="w3-left w3-padding-16"><i class="fa-solid fa-trophy w3-xxxlarge"></i>
-            <h4>2022</h4>
+      <div class="flex-card w3-green">
+          <div class="column-left">
+            <i class="fa-solid fa-trophy w3-xxxlarge"></i>
+            <h3>2022</h3>
           </div>
-          <div class="w3-right">
-            <h5 class="w3-sans-serif">1st - Aaron</h5>
-            <h5 class="w3-sans-serif">2nd - Ron</h5>
-            <h5 class="w3-sans-serif">3rd - Colin</h5>
-          </div>          
-        </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              1st - Aaron<br>
+              2nd - Ron<br>
+              3rd - Colin
+            </p>
+          </div>
       </div>
 
-      <div class="w3-quarter">
-        <div class="w3-container w3-orange w3-text-white">
-          <div class="w3-left w3-padding-16"><i class="fa-solid fa-trophy w3-xxxlarge"></i>
-            <h4>2021</h4>
+      <div class="flex-card w3-deep-purple">
+          <div class="column-left">
+            <i class="fa-solid fa-trophy w3-xxxlarge"></i>
+            <h3>2021</h3>
           </div>
-          <div class="w3-right">
-            <h5 class="w3-sans-serif">1st - Aaron</h5>
-            <h5 class="w3-sans-serif">2nd - Karl</h5>
-            <h5 class="w3-sans-serif">3rd - Dan</h5>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              1st - Aaron<br>
+              2nd - Karl<br>
+              3rd - Dan
+            </p>
           </div>
-        </div>
       </div>
 
-      <div class="w3-quarter">
-        <div class="w3-container w3-green">
-          <div class="w3-left w3-padding-16"><i class="fa-solid fa-virus-covid w3-xxxlarge"></i>
-            <h4>2020</h4>
+      <div class="flex-card w3-deep-orange">
+          <div class="column-left">
+            <i class="fa-solid fa-virus-covid w3-xxxlarge"></i>
+            <h3>2020</h3>
           </div>
-          <div class="w3-right">
-            <h5 class="w3-sans-serif">1st - Ryan</h5>
-            <h5 class="w3-sans-serif">2nd - Aaron</h5>
-            <h5 class="w3-sans-serif">3rd - Dan</h5>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              1st - Ryan<br>
+              2nd - Aaron<br>
+              3rd - Dan
+            </p>
           </div>
-        </div>
       </div>
     </div>
 
+    <!-- Bottom Grey Bar -->
     <br>
     <div class="w3-container w3-dark-grey w3-padding-16">
       <div class="w3-row">
         <div class="w3-container w3-third">
-          <h5 class="w3-bottombar w3-border-green">About Us</h5>
+          <h5 class="w3-bottombar w3-border-blue">About Us</h5>
           <p>Just a guy who DOMINATES his friends at fantasy football so much that he made this website to prove it.</p>
         </div>
         <div class="w3-container w3-third">
-          <h5 class="w3-bottombar w3-border-red">Fantasy Links</h5>
+          <h5 class="w3-bottombar w3-border-blue">Fantasy Links</h5>
           <a href="https://www.espn.com/fantasy/football/" style="text-decoration:none">ESPN</a><br>
           <a href="https://football.fantasysports.yahoo.com/" style="text-decoration:none">Yahoo</a><br>
           <a href="https://underdogfantasy.com/" style="text-decoration:none">Underdog</a>
         </div>
         <div class="w3-container w3-third">
-          <h5 class="w3-bottombar w3-border-orange">Contact Info</h5>
+          <h5 class="w3-bottombar w3-border-blue">Contact Info</h5>
           Fantasy Record Book<br>
           1000 Champions Row<br>
           Commish Park, USA<br>

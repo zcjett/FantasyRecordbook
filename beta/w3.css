@@ -24,6 +24,39 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 [type=search]::-webkit-search-decoration{-webkit-appearance:none}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 /* End extract */
+/*Flexbox Items*/
+.flex-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;  /*Centers the cards on the screen*/
+      flex-shrink: 0;  /*Allows me to define the size of the cards below*/
+    }
+    .flex-card{
+      width: 450px;
+      height: 125px;
+      margin: 10px;  /*Space around the cards*/
+      align-content: center;
+    }
+    .column-left{
+      float: left;
+      width: 60%;
+      padding-top: 20px;
+      padding-left: 15px;
+    }
+    .column-right{
+      float: right;
+      width: 40%;
+      text-align: center;  /*Aligns the text in the center of the column*/
+    }
+    .card-text{
+    	font-size: 20px;
+    	font: sans-serif;
+    }
+    .flex-table{
+    	width: 400px;
+    	margin: 10px;
+    }
+/*w3 Schools CSS Starts Here*/
 html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 .w3-serif{font-family:serif}.w3-sans-serif{font-family:sans-serif}.w3-cursive{font-family:cursive}.w3-monospace{font-family:monospace}
