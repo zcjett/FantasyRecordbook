@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Fantasy Record Book</title>
+  <title>Fantasy Record Book</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google" content="notranslate"/>
@@ -11,6 +11,13 @@
   <link href="./assets/favicon.ico" rel="icon">
   <style>
     html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    .home_image{
+      @media screen and (max-width: 480px) {
+        img { 
+          width: 80px; 
+          height: 60px;}
+        }
+    }
   </style>
 </head>
 <body class="w3-light-grey">
@@ -56,11 +63,11 @@
 
     <!-- WG Home Screen Header -->
     <header>
-      <div class="w3-centered">
-        <div class="w3-container w3-blue w3-padding-16">
-          <div class="w3-left">
-            <h1><img src="./assets/images/wg.jpeg" width="160" height = "120"><b> Wilsons Grove</b></h1>
-          </div>
+      <div class="w3-container w3-blue w3-padding-16">
+        <div class="w3-left">
+          <h1 class="home_image">
+            <img src="./assets/images/wg.jpeg" width="160" height = "120" style=""><b> Wilsons Grove</b>
+          </h1>
         </div>
       </div>
     </header>
