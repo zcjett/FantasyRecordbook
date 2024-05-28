@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fantasy Record Book</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google" content="notranslate"/>
+  <link href="../w3.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <script src="https://kit.fontawesome.com/1dcf71619f.js" crossorigin="anonymous"></script>
+  <link href="../assets/favicon.ico" rel="icon">
+  <style>
+    html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+  </style>
+</head>
+<body class="w3-light-grey">
+
+  <!-- Black Bar Across Top of Site  -->
+  <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+    <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i> &nbspMenu</button>
+    <a href="../1389279.html"><span class="w3-bar-item w3-right"><img src="../assets/favicon_png.png" width="25" height="25"></span></a>
+  </div>
+
+  <!-- Sidebar Menu -->
+  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+    <div class="w3-container w3-row">
+      <div class="w3-col s4">
+        <a href="../1389279.html"><img src="../assets/favicon_png.png" class="w3-circle w3-margin-right" style="width:65px"></a>
+      </div>
+      <div class="w3-col s8 w3-bar">
+        <a href="../1389279.html" style="text-decoration:none"><span> <font size="+1">Fantasy Record Book</font></span><br></a>
+        <a href="mailto: myfantasyrecordbook@gmail.com" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+        <a href="https://fantasy.espn.com/football/league?leagueId=1389279" class="w3-bar-item w3-button"><i class="fa-solid fa-e"></i></a>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-container">
+      <h5><a href="../1389279.html" class="w3-bar-item w3-button w3-padding">Go Fuck Yourself Records</a></h5>
+    </div>
+    <div class="w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i> &nbspClose Menu</a>
+      <a href="league.html" class="w3-bar-item w3-button w3-padding"><i class="fa-solid fa-football"></i>&nbsp Current League</a>
+      <a href="league_history.html" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa-solid fa-clock-rotate-left"></i>&nbsp League History</a>
+      <a href="h2h.html" class="w3-bar-item w3-button w3-padding"><i class="fa-solid fa-people-arrows"></i>&nbsp H2H Matchups</a>
+      <a href="draft.html" class="w3-bar-item w3-button w3-padding"><i class="fa-solid fa-list-ol"></i>&nbsp Draft Results</a>
+      <a href="teams.html" class="w3-bar-item w3-button w3-padding"><i class="fa-solid fa-users"></i>&nbsp Team Stats</a>
+    </div>
+  </nav>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+    <!-- Page Specific Header -->
+    <header>
+      <div class="w3-container w3-blue w3-padding-16">
+        <div class="w3-left">
+          <h5><b><i class="fa-solid fa-football"></i> &nbspHistorcial League Standings</b></h5>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Begin Page Tables -->
+    <div class="w3-panel">
+      <div class="w3-auto w3-sans-serif">
+        <h5><i class="fa-solid fa-ranking-star"></i>&nbsp Actual Standings</h5>
+        <table class="w3-table w3-centered w3-hoverable w3-striped w3-white">
+          <tr class="w3-dark-grey">
+            <td>Owner</td>
+            <td>W - L</td>
+            <td>PF</td>
+            <td>PA</td>
+          </tr>
+            <td>Nick</td>
+            <td>53 - 41</td>
+            <td>10176.62</td>
+            <td>9784.92</td>
+          </tr>
+            <td>Tyler</td>
+            <td>49 - 45</td>
+            <td>10202.84</td>
+            <td>9913.02</td>
+          </tr>
+            <td>Bryar</td>
+            <td>48 - 46</td>
+            <td>9780.1</td>
+            <td>9661.12</td>
+          </tr>
+            <td>Dann</td>
+            <td>46 - 35</td>
+            <td>8767.12</td>
+            <td>8187.02</td>
+          </tr>
+            <td>Meghan</td>
+            <td>37 - 31</td>
+            <td>6490.62</td>
+            <td>6778.32</td>
+          </tr>
+            <td>Timothy</td>
+            <td>31 - 24</td>
+            <td>5738.84</td>
+            <td>5610.2</td>
+          </tr>
+            <td>Domenick</td>
+            <td>30 - 38</td>
+            <td>6945.7</td>
+            <td>7254.22</td>
+          </tr>
+            <td>Adrian</td>
+            <td>28 - 66</td>
+            <td>9036.86</td>
+            <td>10015.1</td>
+          </tr>
+            <td>Danny</td>
+            <td>27 - 25</td>
+            <td>5582.18</td>
+            <td>5469.82</td>
+          </tr>
+            <td>Zach</td>
+            <td>26 - 16</td>
+            <td>4384.36</td>
+            <td>4142.58</td>
+          </tr>
+            <td>Andrew</td>
+            <td>25 - 30</td>
+            <td>5461.14</td>
+            <td>5541.94</td>
+          </tr>
+            <td>Nat</td>
+            <td>22 - 17</td>
+            <td>4253.46</td>
+            <td>4076.86</td>
+          </tr>
+            <td>Andrew</td>
+            <td>18 - 8</td>
+            <td>3067.5</td>
+            <td>2805.98</td>
+          </tr>
+            <td>Cody</td>
+            <td>10 - 16</td>
+            <td>2581.94</td>
+            <td>2817.68</td>
+          </tr>
+            <td>Andrew</td>
+            <td>7 - 19</td>
+            <td>2662.74</td>
+            <td>3073.24</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <h5><i class="fa-solid fa-ranking-star"></i>&nbsp Overall Standings</h5>
+        <table class="w3-table w3-centered w3-hoverable w3-striped w3-white">
+          <tr class="w3-dark-grey">
+            <td>Owner</td>
+            <td>W - L</td>
+            <td>Weekly W</td>
+            <td>Weekly L</td>
+          </tr>
+            <td>Nick</td>
+            <td>461 - 359</td>
+            <td>12</td>
+            <td>5</td>
+          </tr>
+            <td>Tyler</td>
+            <td>455 - 365</td>
+            <td>12</td>
+            <td>8</td>
+          </tr>
+            <td>Bryar</td>
+            <td>409 - 411</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+            <td>Dann</td>
+            <td>383 - 346</td>
+            <td>14</td>
+            <td>3</td>
+          </tr>
+            <td>Adrian</td>
+            <td>336 - 484</td>
+            <td>6</td>
+            <td>16</td>
+          </tr>
+            <td>Domenick</td>
+            <td>302 - 310</td>
+            <td>7</td>
+            <td>4</td>
+          </tr>
+            <td>Timothy</td>
+            <td>286 - 209</td>
+            <td>5</td>
+            <td>5</td>
+          </tr>
+            <td>Meghan</td>
+            <td>247 - 365</td>
+            <td>4</td>
+            <td>11</td>
+          </tr>
+            <td>Danny</td>
+            <td>227 - 215</td>
+            <td>6</td>
+            <td>9</td>
+          </tr>
+            <td>Andrew</td>
+            <td>225 - 270</td>
+            <td>6</td>
+            <td>12</td>
+          </tr>
+            <td>Zach</td>
+            <td>202 - 176</td>
+            <td>4</td>
+            <td>1</td>
+          </tr>
+            <td>Nat</td>
+            <td>167 - 158</td>
+            <td>2</td>
+            <td>2</td>
+          </tr>
+            <td>Andrew</td>
+            <td>138 - 70</td>
+            <td>4</td>
+            <td>1</td>
+          </tr>
+            <td>Andrew</td>
+            <td>94 - 140</td>
+            <td>2</td>
+            <td>4</td>
+          </tr>
+            <td>Cody</td>
+            <td>77 - 131</td>
+            <td>2</td>
+            <td>4</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <h5><i class="fa-solid fa-ranking-star"></i>&nbsp Expected Standings</h5>
+        <table class="w3-table w3-centered w3-hoverable w3-striped w3-white">
+          <tr class="w3-dark-grey">
+            <td>Owner</td>
+            <td>W - L</td>
+            <td>Luck Factor</td>
+          </tr>
+            <td>Tyler</td>
+            <td>55 - 39</td>
+            <td>-6</td>
+          </tr>
+            <td>Nick</td>
+            <td>52 - 42</td>
+            <td>+1</td>
+          </tr>
+            <td>Bryar</td>
+            <td>44 - 50</td>
+            <td>+4</td>
+          </tr>
+            <td>Dann</td>
+            <td>40 - 41</td>
+            <td>+6</td>
+          </tr>
+            <td>Timothy</td>
+            <td>38 - 17</td>
+            <td>-7</td>
+          </tr>
+            <td>Adrian</td>
+            <td>34 - 60</td>
+            <td>-6</td>
+          </tr>
+            <td>Domenick</td>
+            <td>34 - 34</td>
+            <td>-4</td>
+          </tr>
+            <td>Danny</td>
+            <td>31 - 21</td>
+            <td>-4</td>
+          </tr>
+            <td>Meghan</td>
+            <td>25 - 43</td>
+            <td>+12</td>
+          </tr>
+            <td>Andrew</td>
+            <td>24 - 31</td>
+            <td>+1</td>
+          </tr>
+            <td>Nat</td>
+            <td>22 - 17</td>
+            <td>-</td>
+          </tr>
+            <td>Zach</td>
+            <td>22 - 20</td>
+            <td>+4</td>
+          </tr>
+            <td>Andrew</td>
+            <td>20 - 6</td>
+            <td>-2</td>
+          </tr>
+            <td>Andrew</td>
+            <td>10 - 16</td>
+            <td>-3</td>
+          </tr>
+            <td>Cody</td>
+            <td>6 - 20</td>
+            <td>+4</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+      </div>
+    </div>
+
+    <!-- Page Specific Header -->
+    <header>
+      <div class="w3-container w3-blue w3-padding-16">
+        <div class="w3-left">
+          <h5><b><i class="fa-solid fa-chart-column"></i> &nbspHistorical League Stats</b></h5>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Begin Page Cards -->
+    <br>
+    <div class="flex-container">
+      <div class="flex-card w3-red">
+          <div class="column-left">
+            <i class="fa-solid fa-trophy w3-xxxlarge"></i>
+            <h3>Most Points</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>181.92</strong><br>
+              Nat<br>
+              <i style="font-size: 15px;">2019 - Week 5</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-red">
+          <div class="column-left">
+            <i class="fa-solid fa-dumpster-fire w3-xxxlarge"></i>
+            <h3>Least Points</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>4.08</strong><br>
+              Nick<br>
+              <i style="font-size: 15px;">2022 - Week 16</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-green">
+          <div class="column-left">
+            <i class="fa-solid fa-bomb w3-xxxlarge"></i>
+            <h3>Blowout</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>178.52 - 75.2</strong><br>
+              Danny vs Andrew<br>
+              <i style="font-size: 15px;">2018 - Week 10</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-green">
+          <div class="column-left">
+            <i class="fa-solid fa-magnifying-glass-chart w3-xxxlarge"></i>
+            <h3>Close Game</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>115.3 - 115.22</strong><br>
+              Tyler vs Adrian<br>
+              <i style="font-size: 15px;">2019 - Week 2</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-deep-purple">
+          <div class="column-left">
+            <i class="fa-solid fa-fire w3-xxxlarge"></i>
+            <h3>Winning Streak</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>11</strong><br>
+              Tyler<br>
+              <i style="font-size: 15px;">2019 - Week 5</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-deep-purple">
+          <div class="column-left">
+            <i class="fa-solid fa-arrow-trend-down w3-xxxlarge"></i>
+            <h3>Losing Streak</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>13</strong><br>
+              Adrian<br>
+              <i style="font-size: 15px;">2018 - Week 5</i>
+            </p>
+          </div>
+      </div>
+
+      <div class="flex-card w3-deep-orange">
+          <div class="column-left">
+            <i class="fa-solid fa-arrow-right-arrow-left w3-xxxlarge"></i>
+            <h3>Trades</h3>
+          </div>
+          <div class="column-right">
+            <p class="w3-sans-serif card-text">
+              <strong>7</strong><br>
+              Andrew<br>
+              <i style="font-size: 15px;">2017</i>
+            </p>
+          </div>
+      </div>
+
+    </div>
+    <br>
+
+    <!-- Bottom Grey Bar -->
+    <br>
+    <div class="w3-container w3-dark-grey w3-padding-16">
+      <div class="w3-row">
+        <div class="w3-container w3-third">
+          <h5 class="w3-bottombar w3-border-blue">About Us</h5>
+          <p>Just a guy who DOMINATES his friends at fantasy football so much that he made this website to prove it.</p>
+        </div>
+        <div class="w3-container w3-third">
+          <h5 class="w3-bottombar w3-border-blue">Fantasy Links</h5>
+          <a href="https://www.espn.com/fantasy/football/" style="text-decoration:none">ESPN</a><br>
+          <a href="https://football.fantasysports.yahoo.com/" style="text-decoration:none">Yahoo</a><br>
+          <a href="https://underdogfantasy.com/" style="text-decoration:none">Underdog</a>
+        </div>
+        <div class="w3-container w3-third">
+          <h5 class="w3-bottombar w3-border-blue">Contact Info</h5>
+          Fantasy Record Book<br>
+          1000 Champions Row<br>
+          Commish Park, USA<br>
+          myfantasyrecordbook@gmail.com
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-16 w3-light-grey">
+    </footer>
+
+    <!-- End page content -->
+  </div>
+
+  <script>
+// Get the Sidebar
+    var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+    var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = 'block';
+      }
+    }
+
+// Close the sidebar with the close button
+    function w3_close() {
+      mySidebar.style.display = 'none';
+      overlayBg.style.display = 'none';
+    }
+  </script>
+
+    </div>
+  </nav>
+
+</body>
+</html>
