@@ -1,0 +1,51 @@
+2021 Wilsons Grove Fantasy Football Stats
+Overall Standings,Wins,Losses,Weekly Winner,Weekly Loser
+Karl,94,41,4,0
+Aaron,87,48,0,0
+Dan,86,49,3,0
+Zach,73,62,1,1
+Alex,73,62,2,2
+Ryan,62,73,2,3
+Colin,60,75,1,1
+Ron,59,76,1,3
+Matt,51,84,1,3
+Brian,30,105,0,2
+
+Yearly & Historical League Stats,Record,Owner/Week,Overall Record
+Weeks with Most Points,4, Karl,League Record: 2022 - 5 (Aaron)
+Weeks with Least Points,3, Ryan & Matt & Ron,League Record: 2022 - 5 (Ryan)
+Team Most Points (week),198.76,Karl (Week 5),League Record: 2022 - 208.8 (Week 9: Zach)
+Team Least Points (week),77.36,Brian (Week 3),League Record: 2022 - 76.62 (Week 5: Zach)
+Closest Game,108.6 vs 109.14,Zach vs Dan (Week 4),LEAGUE RECORD!!
+Biggest Blowout,77.6 vs 198.76,Ron vs Karl (Week 5),LEAGUE RECORD!!
+Most Points in a Loss,167.06,Alex (Week 5),LEAGUE RECORD!!
+Least Points in a Win,101.8,Dan (Week 9),League Record: 2020 - 89.9 ( Week 10: Ryan)
+Most Weeks > 150,6,Aaron,LEAGUE RECORD!!
+Most Weeks > 100,5,Brian,League Record: 2022 - 7 (Ryan)
+Most Trades,11,Zach,LEAGUE RECORD!!
+Most Weekly Points (League),1402.8,Week 5,LEAGUE RECORD!!
+Least Weekly Points (League),1113.58,Week 15,League Record: 2020 - 1038.96 (Week: 10)
+
+Optimal Drafted Team - 3036.5pts / $231,Player,Score,Draft Cost
+QB,Josh Allen,417.6,82
+QB,Justin Herbert,395.8,13
+RB,Jonathan Taylor,353.1,51
+RB,Austin Ekeler,308.8,64
+WR,Ja'Marr Chase,264.1,7
+WR,Deebo Samuel,300.5,1
+TE,Mark Andrews,247.6,5
+Flex,Cooper Kupp,367.0,6
+K,Daniel Carlson,174.0,1
+D/ST,Cowboys D/ST,208.0,1
+
+Optimal FA Team - 2025.06 pts
+QB,Jimmy Garoppolo,239.5
+QB,Taylor Heinicke,237.36
+RB,Cordarrelle Patterson,208.6
+RB,Devin Singletary,177.8
+WR,Mike Williams,208.6
+WR,Hunter Renfrow,207.6
+TE,Dalton Schultz,169.8
+Flex,Jaylen Waddle,193.8
+K,Daniel Carlson,174.0
+D/ST,Cowboys D/ST,208.0

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fantasy Record Book</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google" content="notranslate"/>
+  <link href="./w3.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <script src="https://kit.fontawesome.com/1dcf71619f.js" crossorigin="anonymous"></script>
+  <link href="./assets/favicon.ico" rel="icon">
+  <style>
+    html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+  </style>
+</head>
+<body class="w3-light-grey">
+
+  <!-- Black Bar Across Top of Site  -->
+  <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+    <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i> &nbspMenu</button>
+    <a href="./index.html"><span class="w3-bar-item w3-right"><img src="./assets/favicon_png.png" width="25" height="25"></span></a>
+  </div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-top:43px;">
+
+    <!-- Page Specific Header -->
+    <header>
+      <div class="w3-container w3-blue w3-padding-16">
+        <div class="w3-left">
+          <h1 class="home_header_text">
+            <img src="./assets/favicon_png.png" width="70" height = "60" style=""><b> &nbspFantasy Recordbook</b>
+          </h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- Begin Page Cards -->
+    <br>
+    <br>
+    <br>
+    <div class="flex-container">
+      <a href="./1392086393.html"><img src="./assets/images/wg.jpeg" class= "w3-margin" width="400" height="300"></a> 
+      <a href="./380692.html"><img src="./assets/images/usc.png" class= "w3-margin" width="400" height="300"></a>
+      <a href="./1389279.html"><img src="./assets/images/league_image.png" class= "w3-margin" width="300" height="300"></a>
+    </div>
+    <br>
+    <br>
+
+    <!-- Bottom Grey Bar -->
+    <br>
+    <div class="w3-container w3-dark-grey w3-padding-16">
+      <div class="w3-row">
+        <div class="w3-container w3-third">
+          <h5 class="w3-bottombar w3-border-blue">About Us</h5>
+          <p>Just a guy who DOMINATES his friends at fantasy football so much that he made this website to prove it.</p>
+        </div>
+        <div class="w3-container w3-third">
+          <h5 class="w3-bottombar w3-border-blue">Fantasy Links</h5>
+          <a href="https://www.espn.com/fantasy/football/" style="text-decoration:none">ESPN</a><br>
+          <a href="https://football.fantasysports.yahoo.com/" style="text-decoration:none">Yahoo</a><br>
+          <a href="https://underdogfantasy.com/" style="text-decoration:none">Underdog</a>
+        </div>
+        <div class="w3-container w3-third">
+          <h5 class="w3-bottombar w3-border-blue">Contact Info</h5>
+          Fantasy Record Book<br>
+          1000 Champions Row<br>
+          Commish Park, USA<br>
+          myfantasyrecordbook@gmail.com
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-16 w3-light-grey">
+    </footer>
+
+    <!-- End page content -->
+  </div>
+
+  <script>
+// Get the Sidebar
+    var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+    var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = 'block';
+      }
+    }
+
+// Close the sidebar with the close button
+    function w3_close() {
+      mySidebar.style.display = 'none';
+      overlayBg.style.display = 'none';
+    }
+  </script>
+
+    </div>
+  </nav>
+
+</body>
+</html>

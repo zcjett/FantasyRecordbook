@@ -1,0 +1,49 @@
+2021 USC Fantasy Football Stats
+Overall Standings,Wins,Losses,Weekly Winner,Weekly Loser
+Todd,99,55,2,1
+Zach,93,61,0,1
+Sudhir,92,62,1,1
+Danny,90,64,1,2
+Shawn,88,66,2,0
+Elliot,81,73,2,0
+Chris,80,74,2,2
+Parker,76,78,1,1
+Jeff,68,86,1,3
+Brian,59,95,0,1
+Sean,55,99,2,1
+Russ,43,111,0,1
+
+Yearly & Historical League Stats,Record,Owner/Week,Overall Record
+Weeks with Most Points,2, Shawn & Todd & Elliot & Sean & Chris,League Record: 2011 - 7 (Chris)
+Weeks with Least Points,3, Jeff,League Record: 2011 & 2016 & 2020 - 4 (Todd & Sudhir & Shawn)
+Team Most Points (week),162.66,Sean (Week 1),League Record: 2019 - 181.24 (Week 3: Todd)
+Team Least Points (week),39.1,Sean (Week 9),League Record: 2016 - 30.0 (Week 9: Bobby)
+Closest Game,92.0 vs 92.68,Parker vs Todd (Week 6),League Record: 2011 - 103.7 vs 103.58 (Week 3: Parker vs Todd)
+Biggest Blowout,39.1 vs 120.04,Sean vs Danny (Week 9),League Record: 2015 - 156.06 vs 60.68 (Week 13: Parker vs Bobby)
+Most Points in a Loss,154.68,Todd (Week 5),LEAGUE RECORD!!
+Least Points in a Win,68.34,Brian (Week 9),League Record: 2017 - 54.14 ( Week 6: Elliot)
+Most Weeks > 125,4,Todd,League Record: 2019 - 6 (Brian)
+Most Weeks > 70,4,Sean,League Record: 2016 - 11 (Bobby)
+Most Trades,6,Zach,League Record: 2020 - 8 (Zach)
+Most Weekly Points (League),1339.76,Week 5,League Record: 2019 - 1378.1 (Week: 5)
+Least Weekly Points (League),1028.0,Week 9,League Record: 2017 - 871.42 (Week: 1)
+
+Optimal Drafted Team - 2443.7pts / $196,Player,Score,Draft Cost
+QB,Josh Allen,417.6,20
+RB,Jonathan Taylor,353.1,57
+RB,Austin Ekeler,308.8,69
+WR,Deebo Samuel,300.5,6
+WR,Ja'Marr Chase,264.1,8
+TE,Mark Andrews,247.6,13
+Flex,Cooper Kupp,367.0,22
+D/ST,Cowboys D/ST,185.0,1
+
+Optimal FA Team - 1595.26 pts
+QB,Kirk Cousins,300.34
+RB,Cordarrelle Patterson,208.6
+RB,Darrel Williams,172.5
+WR,Hunter Renfrow,207.6
+WR,Amon-Ra St. Brown,182.3
+TE,Dalton Schultz,169.8
+Flex,Christian Kirk,169.12
+D/ST,Cowboys D/ST,185.0
